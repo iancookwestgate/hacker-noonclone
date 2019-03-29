@@ -9,9 +9,14 @@ import { Story } from './../story';
 export class AppComponent {
   title = 'app';
 
-  masterStoryList: Keg[] = [
+  masterStoryList: Story[] = [
     {
-      
+      img: './assets/img/tensorflow.png',
+      title: "TensorFlow is dead, long live TensorFlow!",
+      description: "If you're an AI enthusiast and you didn't see the big news this month, you might have just snoozed through an off-the-charts earthquake...",
+      profile: './assets/img/eric-insta.jpeg',
+      name: "Eric Wang",
+      dateRead: "Mar 28 - 16 min read"
     }
   ]
 }
