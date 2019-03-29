@@ -16,6 +16,7 @@ This copy of Hacker Noon is an app designed for Epicodus to practice cloning a w
 
 * Install Node.js.
 * Clone the repo: https://github.com/iwestgate931/hacker-noonclone.git.
+* Navigate to the folder in the terminal by typing in: "cd freelance-wizard".
 * `npm install` to install dependencies.
 * Run `ng serve --open` for a dev server. This will open a window in your web browser with which to view the project. The app will automatically reload if you change any of the source files.
 * `npm run lint` to explicitly run ESLint.
