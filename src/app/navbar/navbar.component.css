@@ -4,6 +4,13 @@
   background-color: rgba(0,255,0,1);
 }
 
+#m-icon {
+  margin-left: 2%;
+  margin-top: 1%;
+  width: 45px;
+  height: 45px;
+}
+
 .rowify {
   display: flex;
   flex-direction: row;
