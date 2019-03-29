@@ -2,6 +2,22 @@
   background-color: rgba(0,255,0,1);
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.split {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftside {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2%;
+}
+
 #logo {
   width: 490px;
 }
