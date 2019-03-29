@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Story } from '../../story';
 
 @Component({
   selector: 'app-main',
