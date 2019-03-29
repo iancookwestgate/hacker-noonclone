@@ -19,8 +19,8 @@ a {
 }
 
 .sort {
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
   margin-top: -1%;
   margin-left: 2%;
 }
@@ -32,4 +32,8 @@ a {
 
 .arranged {
   max-width: 328px;
+}
+
+#date-details {
+  margin-top: 1px;
 }
