@@ -5,7 +5,8 @@
 }
 
 img {
-  width: 328px;
+  max-width: 328px;
+  max-height: 174px;
 }
 
 a {
