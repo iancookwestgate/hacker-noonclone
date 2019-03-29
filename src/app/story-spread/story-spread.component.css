@@ -7,6 +7,7 @@
 img {
   max-width: 328px;
   max-height: 174px;
+  margin: 0 auto;
 }
 
 a {
@@ -24,8 +25,8 @@ a {
 }
 
 .insta {
-  width: 32px;
-  height: 32px;
+  max-width: 32px;
+  max-height: 32px;
 }
 
 .arranged {

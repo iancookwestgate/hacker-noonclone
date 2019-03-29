@@ -17,7 +17,6 @@ a {
 }
 
 #m-icon {
-
   margin-top: 1%;
   width: 45px;
   height: 45px;
@@ -31,7 +30,5 @@ a {
 .rowify {
   display: flex;
   flex-direction: row;
-  /* width: 25%; */
-  justify-content: space-around;
-
+  align-items: center;
 }
