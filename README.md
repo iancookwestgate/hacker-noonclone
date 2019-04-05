@@ -23,7 +23,7 @@ This copy of Hacker Noon is an app designed for Epicodus to practice cloning a w
 * On the next page, click "Add project" below the + sign. Create a project with a name of your choice.
 * When you get to the main page for this new project, click the "</>" icon near the center left of the screen.
 * In the pop-up, note the part of the file that looks like this:
-  "apiKey: "abcdefghijklmnopqrstuvwxyz12345",
+  'apiKey: "abcdefghijklmnopqrstuvwxyz12345",'
 * Create an "api-keys.ts" file in the "app" folder of this project. Copy paste the info above into this new file. Take the API key that you created and put it in the "apiKey" section.
   export const masterFirebaseConfig = {
     apiKey: _"Put your apiKey here!"_,
