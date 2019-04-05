@@ -9,10 +9,11 @@ import { FirebaseListObservable } from 'angularfire2/database';
   providers: [StoryService]
 })
 export class StorySpreadComponent implements OnInit {
-  stories: FirebaseListObservable<any[]>;
-  constructor() { }
+  stories:FirebaseListObservable<any[]>;
+  constructor(private storyService: StoryService) { }
 
   ngOnInit() {
+    this.stories = this.storyService.getStories();
   }
 
 }

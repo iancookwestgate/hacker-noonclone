@@ -1,4 +1,4 @@
-<div class="flexMe">
+<div *ngFor="let story of stories | async" class="flexMe">
   <div class="arranged">
     <img src="{{story.img}}" alt="">
     <h2>{{story.title}}</h2>
