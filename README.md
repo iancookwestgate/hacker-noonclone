@@ -6,19 +6,13 @@
 
 This copy of Hacker Noon is an app designed for Epicodus to practice cloning a website using the Angular framework. The links have no functionality, but the final version will include connections to a Firebase database in the back-end.
 
-## Specs
-
-| Behavior | Input | Output |
-|----------|-------|--------|
-| Spec to be filled in later once database functionality is included. | Input | Output |
-
 ## Setup
 
 * Install Node.js.
 * Clone the repo: https://github.com/iwestgate931/hacker-noonclone.git.
 * Navigate to the folder in the terminal by typing in: "cd hacker-noonclone".
 * `npm install` to install dependencies.
-* Create or use an account with https://firebase.google.com/.
+* Create and/or use an account with https://firebase.google.com/.
 * Click the "GO TO CONSOLE" link in the top right of the screen.
 * On the next page, click "Add project" below the + sign. Create a project with a name of your choice.
 * When you get to the main page for this new project, click the "</>" icon near the center left of the screen.
@@ -45,8 +39,7 @@ This copy of Hacker Noon is an app designed for Epicodus to practice cloning a w
 ## Planned Features
 
 * Tighten up the arrangement of posts to better match that of Hacker Noon's.
-* Bring in post information from a Firebase database.
-* Spend time with CSS to properly format fonts, links, and post info.
+* Spend more time with CSS to properly format fonts, links, and post info.
 
 ## Technologies Used
 
@@ -56,12 +49,13 @@ This copy of Hacker Noon is an app designed for Epicodus to practice cloning a w
 * Node.js
 * Babel
 * Webpack
-* ESLint
 * Firebase
 
 ## Known Bugs
 
-* Some CSS elements are not finished and media queries have not yet been added. Consequently, the current version of this website is best viewed in fullscreen.
+* While all Angular component usage and Firebase data retrievals are now working, getting their info to display properly below the initial two highlighted posts has been a challenge.
+* The posts are currently scrunched up together and are not as of yet responding to margin or padding changes. This is also a problem that has not yet been resolved for link arrangements in the navbar.
+* The CSS for the highlighted images also doesn't stretch across the entire screen when taken to a maximum size (unlike that of Hacker Noon).
 
 ## Support and contact details
 
