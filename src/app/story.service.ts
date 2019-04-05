@@ -4,6 +4,12 @@ import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/databa
 @Injectable()
 export class StoryService {
   stories: FirebaseListObservable<any[]>;
-  constructor() { }
+  constructor(private database: AngularFireDatabase) {
+      this.stories = database.list("stories");
+  }
+
+  getStories(){
+    return this.stories;
+  }
 
 }
