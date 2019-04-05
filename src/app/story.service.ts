@@ -3,6 +3,7 @@ import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/databa
 
 @Injectable()
 export class StoryService {
+  stories: FirebaseListObservable<any[]>;
   constructor() { }
 
 }

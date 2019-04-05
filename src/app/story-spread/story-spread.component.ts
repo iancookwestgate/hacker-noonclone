@@ -8,7 +8,7 @@ import { StoryService } from '../story.service';
   providers: [StoryService]
 })
 export class StorySpreadComponent implements OnInit {
-  constructor(private router: Router, private storyService: StoryService) { }
+  constructor() { }
 
   ngOnInit() {
   }
