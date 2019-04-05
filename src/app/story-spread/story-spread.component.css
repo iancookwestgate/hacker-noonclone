@@ -1,10 +1,17 @@
-.flexMe {
+.topStories {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   margin: 0 10%;
 }
 
-img {
+.highlighted {
+  height: 352px;
+  width: 1900px;
+  overflow: hidden;
+}
+
+.spread {
   max-width: 328px;
   max-height: 174px;
 }

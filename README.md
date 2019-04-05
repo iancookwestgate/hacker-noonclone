@@ -52,7 +52,6 @@ This copy of Hacker Noon is an app designed for Epicodus to practice cloning a w
 
 * HTML
 * CSS
-  * SASS
 * JavaScript
 * Node.js
 * Babel
