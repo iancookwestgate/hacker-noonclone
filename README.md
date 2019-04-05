@@ -22,26 +22,18 @@ This copy of Hacker Noon is an app designed for Epicodus to practice cloning a w
 * Click the "GO TO CONSOLE" link in the top right of the screen.
 * On the next page, click "Add project" below the + sign. Create a project with a name of your choice.
 * When you get to the main page for this new project, click the "</>" icon near the center left of the screen.
-* In the pop-up, copy the part of the file that looks like this:
-  "  var config = {
-    apiKey: "AIzaSyCEzzrkN51q8amC7rYU_UM66nDcEaRNKD8",
-    authDomain: "test-1fe7b.firebaseapp.com",
-    databaseURL: "https://test-1fe7b.firebaseio.com",
-    projectId: "test-1fe7b",
-    storageBucket: "test-1fe7b.appspot.com",
-    messagingSenderId: "788847191693"
-  };"
-* Create an "api-keys.ts" file in the app folder of this project. Copy paste the info above into it. Change parts of your information to match the below. The parts-to-be-changed are italicized:
+* In the pop-up, note the part of the file that looks like this:
+  "apiKey: "abcdefghijklmnopqrstuvwxyz12345",
+* Create an "api-keys.ts" file in the "app" folder of this project. Copy paste the info above into this new file. Take the API key that you created and put it in the "apiKey" section.
   export const masterFirebaseConfig = {
-    apiKey: "Keep your apiKey here!",
+    apiKey: _"Put your apiKey here!"_,
     authDomain: "hacker-noon.firebaseapp.com",
     databaseURL: "https://hacker-noon.firebaseio.com",
     projectId: "hacker-noon",
     storageBucket: "",
     messagingSenderId: "1128055699"
   };
-
-* Run `ng serve --open` for a dev server. This will open a window in your web browser with which to view the project. The app will automatically reload if you change any of the source files.
+* Back in your terminal, run `ng serve --open` for a dev server. This will open a window in your web browser with which to view the project. The app will automatically reload if you change any of the source files.
 * `npm run lint` to explicitly run ESLint.
 
 ## Site Features
