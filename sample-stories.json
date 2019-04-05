@@ -1,0 +1,9 @@
+{ "stories": [{
+    "img": "./src/assets/img/game-of-thrones.png",
+    "title": "Announcing Guess the Throne | A Game of Thrones Death Pool",
+    "description": "Spoilers ahead! Please don't visit the website or read this post if you're not caught up.",
+    "profile": "./src/assets/img/marcus-insta.jpeg",
+    "name": "Marcus Wood",
+    "dateRead": "Mar 29 - 3 min read"
+  }]
+}
