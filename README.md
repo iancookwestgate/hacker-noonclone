@@ -21,6 +21,17 @@ This copy of Hacker Noon is an app designed for Epicodus to practice cloning a w
 * Run `ng serve --open` for a dev server. This will open a window in your web browser with which to view the project. The app will automatically reload if you change any of the source files.
 * `npm run lint` to explicitly run ESLint.
 
+## Site Features
+
+* Navbar recreates the neon green appearance of Hacker Noon.
+* Icons and imagery are in place, retrieved directly from Hacker Noon.
+* Site is loosely structured to resemble Hacker Noon's presentation.
+
+## Planned Features
+
+* Tighten up the arrangement of posts to better match that of Hacker Noon's.
+* Bring in post information from a Firebase database.
+* Spend time with CSS to properly format fonts, links, and post info.
 
 ## Technologies Used
 
