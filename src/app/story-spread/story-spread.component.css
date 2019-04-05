@@ -2,13 +2,18 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 0 10%;
+
+}
+
+.arranged {
+  width: 100%;
 }
 
 .highlighted {
+  width: 100%;
   height: 352px;
-  width: 1900px;
   overflow: hidden;
+  object-fit: cover;
 }
 
 .spread {
@@ -35,9 +40,6 @@ a {
   max-height: 32px;
 }
 
-.arranged {
-  max-width: 328px;
-}
 
 #date-details {
   margin-top: 1px;
