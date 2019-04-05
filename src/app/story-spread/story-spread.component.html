@@ -1,5 +1,5 @@
-<div *ngFor="let story of stories | async" class="flexMe">
-  <div class="arranged">
+<div *ngFor="let story of stories | async; let i=index" class="flexMe">
+  <div *ngIf="i<2" class="arranged">
     <img src="{{story.img}}" alt="">
     <h2>{{story.title}}</h2>
     <p>{{story.description}}</p>
