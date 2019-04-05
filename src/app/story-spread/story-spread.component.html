@@ -14,3 +14,19 @@
     </div>
   </div>
 </div>
+<div class="stories">
+  <div *ngFor="let story of stories | async; let i=index">
+    <div *ngIf="i>=2" class="arranged">
+      <img class="spread" src="{{story.img}}" alt="">
+      <h1>{{story.title}}</h1>
+      <p>{{story.description}}</p>
+      <div class="bottom">
+        <img class="insta" src="{{story.profile}}" alt="">
+        <div class="sort">
+          <a href="#">{{story.name}}</a>
+          <p id="date-details">{{story.dateRead}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
