@@ -4,7 +4,7 @@
 
 ## Description
 
-This copy of Hacker Noon is an app designed for Epicodus to practice cloning a website using the Angular framework. The links have no functionality, but the final version will include connections to a Firebase database in the back-end.
+This copy of Hacker Noon is an app designed for Epicodus to practice cloning a website using the Angular framework. The links have no functionality. This final version includes posts brought in via a database acquired through Firebase.
 
 ## Setup
 
