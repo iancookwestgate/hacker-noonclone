@@ -1,4 +1,4 @@
 <app-navbar></app-navbar>
 <app-header></app-header>
 <app-main></app-main>
-<app-story-spread></app-story-spread>
+<app-story-spread *ngFor="let story of stories | async"></app-story-spread>
